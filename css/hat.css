@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@600&display=swap');
+body{
+    background-color: #4d4d4d;
+}
+h1{
+    padding-left: 40px;
+    width: calc(97% - 22px);
+    height: 92px;
+    color: #000;
+    text-shadow: -2px -2px 0 #ffd54e, -2px -1px 0 #ffd54e, -2px 0 0 #ffd54e, -2px 1px 0 #ffd54e, -2px 2px 0 #ffd54e, -1px -2px 0 #ffd54e, -1px -1px 0 #ffd54e, -1px 0 0 #ffd54e, -1px 1px 0 #ffd54e, -1px 2px 0 #ffd54e, 0 -2px 0 #ffd54e, 0 -1px 0 #ffd54e, 0 0 0 #ffd54e, 0 1px 0 #ffd54e, 0 2px 0 #ffd54e, 1px -2px 0 #ffd54e, 1px -1px 0 #ffd54e, 1px 0 0 #ffd54e, 1px 1px 0 #ffd54e, 1px 2px 0 #ffd54e, 2px -2px 0 #ffd54e, 2px -1px 0 #ffd54e, 2px 0 0 #ffd54e, 2px 1px 0 #ffd54e, 2px 2px 0 #ffd54e;
+    font-size: 100px;
+    line-height: 86%;
+    caret-color: #ffd54e;
+    letter-spacing: initial;
+    display: inline-block;
+    width: 800px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 220px;
+    z-index: 1000;
+    vertical-align: top;
+}
+.picture{
+    width: 700px;
+    height: 450px;
+    background-image: url("../img_characters/jabba.jpg");
+    background-size: cover;
+    display: inline-block;
+}
+.description_menu{
+    margin-top: 300px;
+    margin-left: 190px;
+}
+.description{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+li{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    list-style-type: none;
+}
+h2{
+    font-size: 60px;
+    color: #ffd54e;
+    text-shadow: -2px -2px 0 black, -2px -1px 0 black, -2px 0 0 black, -2px 1px 0 black, -2px 2px 0 black, -1px -2px 0 black, -1px -1px 0 black, -1px 0 0 black, -1px 1px 0 black, -1px 2px 0 black, 0 -2px 0 black, 0 -1px 0 black, 0 0 0 black, 0 1px 0 black, 0 2px 0 black, 1px -2px 0 black, 1px -1px 0 black, 1px 0 0 black, 1px 1px 0 black, 1px 2px 0 black, 2px -2px 0 black, 2px -1px 0 black, 2px 0 0 black, 2px 1px 0 black, 2px 2px 0 black;
+}
+p{
+    width: 80%;
+    margin: 100px 190px;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: justify;
+}
+footer{
+    bottom: 0;
+    padding:3em 0;
+    background-color: #333333;
+}
+.footer-container{
+    margin: 0 auto;
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    color: white;
+    margin:0 1em;
+    font-size:22px;
+    text-decoration:none;
+}
+footer ul li a:hover{
+    color:#EE7B00;
+}
+footer b{
+    color: white;
+    font-size:22px;
+}
+html, body {
+    width: 100%;
+    padding: 0; 
+    margin: 0;
+    overflow-x: hidden;
+}
+.sokol{
+    transition: 0.5s;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-top: 7px;
+    background-image: url(../img/sokol_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 14px;
+}
+.description_sokol{
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 250px;
+    height: 150px;
+}
+header a{
+    margin-left: 500px;
+    transition: 0.5s;
+    height: 100px;
+    display: inline-block;
+    border:1px solid white;
+    border-radius: 40px;
+    font-size: 40px;
+}
+.description_sokol h4{
+    transition: 0.5s;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+header a:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+header a:hover .description_sokol h4{
+    transition: 0.5s;
+    color: black !important;
+}
+header a:hover .sokol{
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-image: url(../img/sokol.png);
+}
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.description_sokol h4{
+    color: white !important;
+}
+footer li{
+    font-family: 'Roboto Mono', monospace;
+}
+footer b{
+    font-family: 'Roboto Mono', monospace;
+}
